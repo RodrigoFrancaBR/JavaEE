@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--O Tomcat possui um JNDI somente leitura, assim o Weld não pode vincular 
+	automaticamente a extensão SPI do BeanManager. Para vincular o BeanManager 
+	ao JNDI, você deve preencher META-INF/context.xml na raiz web com o seguinte 
+	conteúdo: -->
+<Context>
+	<!-- disables storage of sessions across restarts -->
+	<Manager pathname="" />
+	<Resource name="BeanManager"
+		auth="Container"
+		type="javax.enterprise.inject.spi.BeanManager"
+		factory="org.jboss.weld.resources.ManagerObjectFactory" />
+</Context>

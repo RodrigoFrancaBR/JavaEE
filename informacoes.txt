@@ -1,7 +1,0 @@
-https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api/3.0.1
-https://www.caelum.com.br/apostila-java-web/servlets
-https://cwiki.apache.org/confluence/display/TOMCAT/Tomcat+Versions#TomcatVersions-Tomcat8.0.x
-https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/modules-and-dependencies.html#servlet-app-general
-https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/modules-and-dependencies.html#servlet-app-general
-https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/deployment.html#environmenmt.appmodel
-https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/jaxrs-resources.html
